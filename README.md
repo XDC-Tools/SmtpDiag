@@ -35,6 +35,9 @@ Welcome to the **SMTP Diagnostic Tool** documentation! This tool is built using 
 .
 ├── smtp-diagnostic-tool.ps1      # Main PowerShell script
 ├── README.md                     # Main documentation
+├── CODE_OF_CONDUCT.md            # Desired behaviour of the community
+├── SECURITY.md                   # How we deal with security issues
+├── SUPPORT                       # How we support issues
 └── LICENSE                       # GNU General Public License v3.0
 ```
 
