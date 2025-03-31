@@ -141,12 +141,6 @@ function To-Base64([string]$text) {
     [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes($text))
 }
 
-# In your existing code, you used "S ->" and "S <-". 
-# Now let's rename them to "CLIENT>>" for what the client sends, 
-# and "SERVER>>" for what the server sends back.
-
-# (Everything else stays the same logic, just renaming the lines in the transcripts.)
-
 # --- Test Connection ---
 $btnConnect.Add_Click({
     $server         = $controls["SMTP Server:"].Text
@@ -338,7 +332,6 @@ $btnSend.Add_Click({
 })
 
 # --- Send Email (Full Debug) ---
-# ... identical to prior version, but "S ->" / "S <-" replaced with "CLIENT>>" / "SERVER>>"
 $btnSendManual.Add_Click({
     $server    = $controls["SMTP Server:"].Text
     $port      = [int]$controls["Port:"].Text
