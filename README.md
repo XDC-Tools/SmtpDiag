@@ -13,6 +13,10 @@ Welcome to the **SMTP Diagnostic Tool** documentation! This tool is built using 
 > ❗ **Note:** The graphical user interface (GUI) version **only works on Windows**. For Linux/macOS, use a CLI-only version.
 
 ---
+## GUI
+![image](https://github.com/user-attachments/assets/520d9fe3-ecf0-46ae-a172-cc7d7889400d)
+
+---
 
 ## 📦 Features
 
